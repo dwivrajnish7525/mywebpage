@@ -1,0 +1,310 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00008B;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 94vh;
+}
+
+.container {
+    width: 95%;
+    height: 94%;
+    background-image: url(https://www.smartwd.in/images/web1.jpeg);
+    background-position: center;
+    padding: 0px;
+}
+
+.nav {
+    height: 18vh;
+    width: 1365px;
+    background-color: #a6def6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo1 img {
+    height: 110px;
+    width: 220px;
+    margin-left: 10px;
+}
+
+.logo2 img {
+    height: 140px;
+    width: 150px;
+}
+
+.part1 {
+    color: #af0000;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.part2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.segment1 {
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 1460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segbox {
+    height: 70px;
+    width: 300px;
+    background-color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid red;
+    font-weight: bold;
+
+}
+
+.segment2 {
+    margin-left: -15px;
+    margin-top: 30px;
+    height: 430px;
+    width: 1460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.seg2part1 {
+    width: 60vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: top;
+    padding-top: 50px;
+
+}
+
+.seg2part1 .para1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.seg2part1 .name {
+    color: #ffdc8d;
+    cursor: pointer;
+
+}
+
+.seg2part1 .sec {
+    color: #ff8dd7;
+
+}
+
+.seg2part1 .bat {
+    color: rgb(131, 255, 100);
+
+}
+
+.seg2part1 .sem {
+    color: rgb(0, 234, 247);
+
+}
+
+.seg2part2 {
+    width: 40vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+
+.seg2part2 div img {
+    width: 355px;
+    height: 350px;
+
+}
+
+.photo {
+    cursor: pointer;
+}
+
+.cal {
+    height: 60px;
+    width: 220px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:active {
+    background-color: #a6def6;
+    color: blue;
+    border: 2px solid white;
+}
+.cal {
+    height: 60px;
+    width: 220px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:active {
+    background-color: #a6def6;
+    color: blue;
+    border: 2px solid white;
+}
+.passmatch {
+    height: 60px;
+    width: 320px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:active {
+    background-color: #688bff;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+.twobutton{
+    display:flex;
+    gap:20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f5ffd6;
+    }
+
+    .logo1 img {
+        height: 0px;
+        width: 0px;
+    }
+
+    .logo2 img {
+        height: 0px;
+        width: 0px;
+    }
+
+    .part1 {
+        color: #af0000;
+        font-weight: bolder;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .part2 {
+        color: #000000;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .main_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .segment1 {
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 100%;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .segbox {
+        height: 100%;
+        width: 80%;
+    }
+
+    .segment2 {
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .seg2part1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .seg2part1 .para1 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .seg2part2 {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seg2part2 div img {
+        width: 325px;
+        height: 320px;
+    
+    }
+    .twobutton{
+    flex-direction:column;
+}
+}
